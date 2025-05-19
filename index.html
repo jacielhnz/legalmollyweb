@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>LegalMolly - Software Notarial para Honduras | Automatiza Protocolos y Auténticas</title>
+<meta name="description" content="Software especializado para notarios y abogados en Honduras. Automatiza el foliado de protocolos, genera auténticas perfectas y ahorra horas de trabajo. Compatible con Microsoft Word.">
+<meta name="keywords" content="software notarial Honduras, foliado automático protocolos, formato auténticas legales, Word para notarios, márgenes auténtica Honduras, gestión documental notarial">
+        <meta name="author" content="LegalMolly Team">
+    
+        <!-- Open Graph para redes sociales -->
+        <meta property="og:title" content="LegalMolly - Sistema de Gestión para Notarios y Abogados">
+        <meta property="og:description" content="Automatiza tus procesos notariales desde Microsoft Word con LegalMolly. Diseñado para notarios hondureños.">
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/lmdoradotrans.ico">
+    
+        <!-- Estilos y librerías -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/lmdoradotrans.png" alt="LegalMolly Logo">
+                Legal<span>Molly</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#interfaz">Interfaz</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-logo">
+                <img src="images/lmdoradotrans.png" alt="LegalMolly Logo" style="height: 30px; margin-right: 10px;">
+                Legal<span>Molly</span>
+            </div>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <ul class="mobile-nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#interfaz">Interfaz</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        
+        <div class="mobile-menu-footer">
+            <a href="#contacto" class="cta-button" style="display: block; text-align: center; margin-bottom: 1.5rem;">Contactar</a>
+            
+            <ul class="mobile-social-links">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content animate-on-scroll">
+            <h1>Automatiza tus Procesos Notariales con LegalMolly</h1>
+            <p>Sistema de gestión para notarios que optimiza el foliado, formato y administración de protocolos. Diseñado para notarios hondureños.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="cta-button animate__animated animate__pulse animate__infinite animate__slower">Solicitar Demostración</a>
+                <a href="#precios" class="cta-button secondary-button">Ver Planes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="caracteristicas">
+        <div class="section-title animate-on-scroll">
+            <h2>Características Principales</h2>
+            <p>LegalMolly revoluciona la gestión documental notarial con herramientas diseñadas específicamente para notarios hondureños.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">📄</div>
+                <h3>Foliado Automático</h3>
+                <p>Numera automáticamente las páginas impares de tus protocolos, evitando errores manuales y ahorrando tiempo valioso.</p>
+            </div>
+            
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">📋</div>
+                <h3>Gestión de Protocolos</h3>
+                <p>Administra eficientemente tus protocolos con control de folios, reservas e índices generados automáticamente.</p>
+            </div>
+            
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">📝</div>
+                <h3>Formatos Jurídicos</h3>
+                <p>Aplica formatos predefinidos para testimonios, auténticas, demandas y protocolos con un solo clic.</p>
+            </div>
+            
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">👥</div>
+                <h3>Multi-Notario</h3>
+                <p>Gestiona documentos para múltiples notarios desde una sola plataforma, con control independiente de folios y protocolos.</p>
+            </div>
+            
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">📊</div>
+                <h3>Índices Automáticos</h3>
+                <p>Genera y exporta índices de protocolo en formato Excel con toda la información organizada y estructurada.</p>
+            </div>
+            
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">🔄</div>
+                <h3>Integración con Word</h3>
+                <p>Trabaja directamente desde Microsoft Word con una interfaz intuitiva y familiar para todos los usuarios.</p>
+            </div>
+        </div>
+        
+        <!-- Word Integration Highlight -->
+        <div class="word-integration animate-on-scroll">
+            <div class="word-content">
+                <div class="word-text">
+                    <h3>Integración Perfecta con Microsoft Word</h3>
+                    <p>LegalMolly funciona como un complemento de Microsoft Word, permitiéndote trabajar en un entorno familiar mientras automatizas tus procesos notariales.</p>
+                    <p>No necesitas aprender nuevos programas - todo el poder de LegalMolly está disponible directamente en Word.</p>
+                    <ul style="margin-top: 1.5rem; list-style-type: none;">
+                        <li style="margin-bottom: 0.8rem; position: relative; padding-left: 1.5rem;">✓ Interfaz intuitiva dentro de Word</li>
+                        <li style="margin-bottom: 0.8rem; position: relative; padding-left: 1.5rem;">✓ Atajos y menús personalizados</li>
+                        <li style="margin-bottom: 0.8rem; position: relative; padding-left: 1.5rem;">✓ Compatible con todas las versiones modernas de Word</li>
+                        <li style="position: relative; padding-left: 1.5rem;">✓ Actualizaciones automáticas</li>
+                    </ul>
+                </div>
+                <div class="word-image">
+                    <img src="images/WordNotario.jpg" alt="LegalMolly en Word">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Auténticas para Abogados -->
+<section class="authentic-section animate-on-scroll" style="background-color: #fdfdfd; padding: 3rem 1rem;">
+    <div class="section-title">
+        <h2>Auténticas para Todos los Abogados</h2>
+        <p>LegalMolly no es solo para notarios. Genera auténticas con formato legal en segundos.</p>
+    </div>
+    <div class="authentic-benefits" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 2rem;">
+        <div class="feature-card">
+            <div class="feature-icon">🖋️</div>
+            <h3>Fácil de Usar</h3>
+            <p>Desde Word, elige “Auténtica” y el formato se aplica al instante.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚖️</div>
+            <h3>Formato Legal Validado</h3>
+            <p>Formato estructurado conforme al estilo de autenticación en Honduras.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">💼</div>
+            <h3>Ideal para Bufetes</h3>
+            <p>Perfecto para abogados independientes o equipos jurídicos que necesitan rapidez y formalidad.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="beneficios">
+        <div class="benefits-container">
+            <div class="benefits-content animate-on-scroll">
+                <div class="section-title" style="text-align: left;">
+                    <h2>Beneficios para tu Notaría</h2>
+                    <p>Optimiza tus procesos notariales y aumenta la productividad con LegalMolly.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">⏱️</div>
+                    <div class="benefit-text">
+                        <h3>Ahorro de Tiempo</h3>
+                        <p>Reduce hasta un 70% el tiempo dedicado a tareas manuales como foliación y formateo de documentos.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✅</div>
+                    <div class="benefit-text">
+                        <h3>Minimiza Errores</h3>
+                        <p>Evita errores comunes en la numeración de folios y en la generación de índices de protocolo.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-text">
+                        <h3>Mayor Productividad</h3>
+                        <p>Aumenta el número de documentos que puedes procesar diariamente gracias a la automatización.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚖️</div>
+                    <div class="benefit-text">
+                        <h3>Cumplimiento Legal</h3>
+                        <p>Asegura que todos tus documentos cumplan con los formatos y requisitos legales vigentes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="benefits-image animate-on-scroll">
+                <img src="images/beneficionotario.jpeg" alt="LegalMolly en acción">
+            </div>
+        </div>
+    </section>
+
+    <!-- Savings Section -->
+    <section class="savings animate-on-scroll">
+        <div class="savings-container">
+            <div class="section-title">
+                <h2 style="color: white;">Ahorros Tangibles</h2>
+                <p style="color: rgba(255,255,255,0.9);">LegalMolly transforma la eficiencia de tu notaría con resultados medibles</p>
+            </div>
+            
+            <div class="savings-cards">
+                <div class="savings-card">
+                    <h3>70%</h3>
+                    <p>Reducción en tiempo de foliado y formateo</p>
+                </div>
+                
+                <div class="savings-card">
+                    <h3>90%</h3>
+                    <p>Menos errores en numeración de folios</p>
+                </div>
+                
+                <div class="savings-card">
+                    <h3>50%</h3>
+                    <p>Ahorro en consumo de papel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interface Showcase -->
+    <section class="interface-showcase" id="interfaz">
+        <div class="showcase-container">
+            <div class="section-title animate-on-scroll">
+                <h2>Interfaz Intuitiva</h2>
+                <p>Descubre cómo LegalMolly simplifica tu flujo de trabajo notarial</p>
+            </div>
+            
+            <div class="showcase-tabs animate-on-scroll">
+                <button class="tab-button active" data-tab="tab1">Foliado Automático</button>
+                <button class="tab-button" data-tab="tab2">Formatos Jurídicos</button>
+                <button class="tab-button" data-tab="tab3">Gestión de Protocolos</button>
+                <button class="tab-button" data-tab="tab4">Índices Automáticos</button>
+            </div>
+            
+            <div class="tab-content active" id="tab1">
+                <div class="showcase-image">
+                    <img src="images/FoliadoAutomatico.jpg" alt="Foliado Automático">
+                </div>
+            </div>
+            
+            <div class="tab-content" id="tab2">
+                <div class="showcase-image">
+                    <img src="images/Formato.jpg" alt="Formatos Jurídicos">
+                </div>
+            </div>
+            
+            <div class="tab-content" id="tab3">
+                <div class="showcase-image">
+                    <img src="images/Control.jpg" alt="Gestión de Protocolos">
+                </div>
+            </div>
+            
+            <div class="tab-content" id="tab4">
+                <div class="showcase-image">
+                    <img src="images/Indice.jpg" alt="Índices Automáticos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Pricing Section -->
+<section class="pricing" id="precios">
+    <div class="section-title animate-on-scroll">
+        <h2>Planes y Precios</h2>
+        <p>Soluciones adaptadas a las necesidades de cada notaría</p>
+    </div>
+    
+    <div class="pricing-plans">
+        <div class="pricing-card animate-on-scroll">
+            <h3>Plan Básico</h3>
+            <div class="price">L 1,850<span>/mes</span></div>
+            <p>Ideal para notarías individuales o pequeñas</p>
+            <ul>
+                <li>1 Notario</li>
+                <li>Hasta 5 computadoras</li>
+                <li>Foliado automático</li>
+                <li>Formatos jurídicos</li>
+                <li>Soporte técnico básico</li>
+            </ul>
+            <a href="#contacto" class="cta-button">Contactar</a>
+        </div>
+        
+        <div class="pricing-card animate-on-scroll">
+            <div class="popular">Popular</div>
+            <h3>Plan Profesional</h3>
+            <div class="price">L 3,000<span>/mes</span></div>
+            <p>Perfecto para notarías medianas</p>
+            <ul>
+                <li>2 Notarios</li>
+                <li>Hasta 10 computadoras</li>
+                <li>Todas las características básicas</li>
+                <li>Gestión multi-notario</li>
+                <li>Soporte técnico prioritario</li>
+            </ul>
+            <a href="#contacto" class="cta-button">Contactar</a>
+        </div>
+        
+        <div class="pricing-card animate-on-scroll">
+            <h3>Plan Empresarial</h3>
+            <div class="price">L 5,000<span>/mes</span></div>
+            <p>Diseñado para grandes bufetes y notarías</p>
+            <ul>
+                <li>Hasta 5 Notarios</li>
+                <li>Computadoras ilimitadas</li>
+                <li>Todas las características</li>
+                <li>Capacitación personalizada</li>
+                <li>Soporte técnico prioritario</li>
+            </ul>
+            <a href="#contacto" class="cta-button">Contactar</a>
+        </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 3rem;" class="animate-on-scroll">
+        <p><strong>¡Descuento del 15% en planes anuales!</strong></p>
+        <p>Consulta por planes personalizados para necesidades específicas</p>
+    </div>
+
+    <!-- Bloque para abogados con el mismo estilo -->
+    <div class="section-title animate-on-scroll" style="margin-top: 5rem;">
+        <h2>Para Abogados</h2>
+        <p>Una solución liviana y práctica para redactar documentos con estilo profesional</p>
+    </div>
+
+    <div class="pricing-plans">
+        <div class="pricing-card animate-on-scroll">
+            <h3>Licencia LegalMolly para Abogados</h3>
+            <div class="price">L 3,500<span>/único pago</span></div>
+            <p>Ideal para abogados que desean agilizar la redacción de documentos</p>
+            <ul>
+                <li>Formato automático de documentos jurídicos</li>
+                <li>Acceso completo al complemento LegalMolly, sin foliado</li>
+                <li>Instalación en una computadora</li>
+                <li>Soporte técnico básico</li>
+                <li>Actualizaciones menores incluidas</li>
+            </ul>
+            <a href="#contacto" class="cta-button">Contactar</a>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem;" class="animate-on-scroll">
+        <p><strong>Descuento especial por compras grupales</strong></p>
+        <p>Consulta si deseas instalar LegalMolly en varios escritorios</p>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="section-title animate-on-scroll">
+            <h2>Contáctanos</h2>
+            <p>Estamos listos para resolver tus dudas y ayudarte a implementar LegalMolly en tu notaría</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info animate-on-scroll">
+                <h3>Información de Contacto</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">👤</div>
+                    <div class="contact-text">
+                        <h4>CEO</h4>
+                        <p>Jaciel Hernández</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-text">
+                        <h4>Teléfono</h4>
+                        <p>+504 9872-0406</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-text">
+                        <h4>Correo Electrónico</h4>
+                        <p>jacielhernandez@hotmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <div class="contact-text">
+                        <h4>Horario de Atención</h4>
+                        <p>Lunes a Viernes, 8:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form animate-on-scroll">
+                <form id="whatsappForm" onsubmit="sendWhatsApp(event)">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="plan">Plan de Interés</label>
+                        <select id="plan" name="plan">
+                            <option value="Básico">Plan Básico</option>
+                            <option value="Profesional">Plan Profesional</option>
+                            <option value="Empresarial">Plan Empresarial</option>
+                            <option value="Personalizado">Plan Personalizado</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Enviar Consulta por WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/lmdoradotrans.png" alt="LegalMolly Logo">
+                Legal<span>Molly</span>
+            </div>
+            <p>Solución integral para la gestión de protocolos notariales</p>
+            
+            <ul class="footer-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#interfaz">Interfaz</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            
+             <!--<ul class="social-links">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul> -->
+            
+            <div class="copyright">
+                &copy; 2025 LegalMolly. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+        <script src="js/app.js"></script>
+
+</body>
+</html>
