@@ -5,10 +5,11 @@
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const phone = document.getElementById('phone').value;
-            const plan = document.getElementById('plan').value;
+            const planSelect = document.getElementById('plan');
+            const plan = planSelect ? planSelect.value : 'Demostración';
             const message = document.getElementById('message').value;
             
-            const text = `Hola, mi nombre es ${name}. Estoy interesado en LegalMolly - ${plan}. Correo: ${email}, Teléfono: ${phone}. ${message}`;
+            const text = `Hola, mi nombre es ${name}. Estoy interesado en LegalMolly${planSelect ? ` - ${plan}` : ''}. Correo: ${email}, Teléfono: ${phone}. ${message}`;
             
             const encodedText = encodeURIComponent(text);
             const whatsappURL = `https://wa.me/50498720406?text=${encodedText}`;
