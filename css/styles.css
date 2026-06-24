@@ -165,6 +165,19 @@ header.scrolled {
     color: #1b2b44;
 }
 
+.cta-button.cta-button--outline {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: white;
+}
+
+.cta-button.cta-button--outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
 .cta-button.cta-button--warm:hover {
     background: linear-gradient(135deg, #fbbf6b 0%, #f59e0b 100%);
     color: var(--primary);
